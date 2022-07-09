@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Noto+Sans:wght@700&family=Nunito:wght@600;700;800&family=Roboto:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Raleway";
+}
+
+#bgText{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.bg-btn{
+    background-color: transparent;
+    padding: 10px 2rem;
+    border: 2px solid #85B0BE;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.bg-btn:hover{
+    background-color:#85B0BE;
+    transition: .5s;
+}
+
+#NAV{
+    background-image:linear-gradient(180deg,rgba(12, 3, 17, 0.6),rgba(13, 6, 19, 0.5)), url(/images/hero-bg.jpg);
+    background-size: cover;
+    height: 80vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg-nav{
+    background-color: rgba(55,86,101,0.9);
+    transition: all 0.3s ease 0s;
+}
+
+.Icon1{
+    display: flex;
+}
+.icon{
+    font-size: 30px;
+}
+
+i {
+    
+    border-radius: 50%;
+    border: 2px solid #85B0BE;
+    padding: 17px;
+    color: #85B0BE;
+  }
+
+  .Icon1:hover #roundedIcon{
+    background-color: #85B0BE;
+    color: #fff;
+  }
+
+  .Icon1:hover h5{
+    color: #85B0BE;
+  }
+
+  .nav-link{
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .nav-link:hover, .active{
+    color: #85B0BE !important;
+  }
+
+  .cARDBTN{
+    background-color: transparent;
+    padding: 5px 1rem;
+    border: 2px solid #85B0BE;
+    /* color: #fff; */
+    border-radius: 5px;
+}
+
+.cARDBTN:hover{
+  background-color:#85B0BE ;
+  transition: .5s;
+  color: #fff !important;
+}
+
+  
+  /* .container1 {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008bba93;
+  }
+
+  .container1:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: .5s ease;
+  } */
