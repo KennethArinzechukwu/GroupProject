@@ -7,6 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="/CSS/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="/css/boxicons.min.css" rel="stylesheet">
+    <link href="/CSS/glightbox.min.css" rel="stylesheet">
+    <link href="/CSS/swiper-bundle.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/CSS/index.css">
 </head>
 <body>
@@ -222,9 +225,252 @@
 
           </section>
 
+          <section id="testimonials" class="testimonials">
+            <div class="container position-relative">
+                <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-item"> <img src="/images/testimonials-1.jpg" class="testimonial-img" alt="">
+                                <h3>Saul Goodman</h3>
+                                <h4>Ceo &amp; Founder</h4>
+                                <p> <i class="bx bxs-quote-alt-left quote-icon-left"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                                    risus at semper. <i class="bx bxs-quote-alt-right quote-icon-right"></i></p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-item"> <img src="/images/testimonials-2.jpg" class="testimonial-img" alt="">
+                                <h3>Sara Wilsson</h3>
+                                <h4>Designer</h4>
+                                <p> <i class="bx bxs-quote-alt-left quote-icon-left"></i> Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
+                                    legam anim culpa. <i class="bx bxs-quote-alt-right quote-icon-right"></i></p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-item"> <img src="images/testimonials-3.jpg" class="testimonial-img" alt="">
+                                <h3>Jena Karlis</h3>
+                                <h4>Store Owner</h4>
+                                <p> <i class="bx bxs-quote-alt-left quote-icon-left"></i> Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i></p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-item"> <img src="/images/testimonials-4.jpg" class="testimonial-img" alt="">
+                                <h3>Matt Brandon</h3>
+                                <h4>Freelancer</h4>
+                                <p> <i class="bx bxs-quote-alt-left quote-icon-left"></i> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore
+                                    labore illum veniam. <i class="bx bxs-quote-alt-right quote-icon-right"></i></p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-item"> <img src="/images/testimonials-5.jpg" class="testimonial-img" alt="">
+                                <h3>John Larson</h3>
+                                <h4>Entrepreneur</h4>
+                                <p> <i class="bx bxs-quote-alt-left quote-icon-left"></i> Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam
+                                    culpa fore nisi cillum quid. <i class="bx bxs-quote-alt-right quote-icon-right"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+ 
+        <!-- portfolio -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Portfolio</h2>
+                    <p>Magnam dolores commodi suscipit onsequatur ex aliquid fuga eum quidem</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-app">App</li>
+                            <li data-filter=".filter-card">Card</li>
+                            <li data-filter=".filter-web">Web</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row portfolio-container">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app"> <img src="/images/portfolioimg/portfolio-1.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>App 1</h4>
+                            <p>App</p> <a href="/images/portfolioimg/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a> <a href="portfolio-details.html" class="details-link"
+                                title="More Details"><i class="bx bx-link"></i></a></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web"> <img src="images/portfolioimg/portfolio-2.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Web 3</h4>
+                            <p>Web</p> <a href="/images/portfolioimg/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a> <a href="portfolio-details.html" class="details-link"
+                                title="More Details"><i class="bx bx-link"></i></a></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app"> <img src="images/portfolioimg/portfolio-3.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>App 2</h4>
+                            <p>App</p> <a href="/images/portfolioimg/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a> <a href="portfolio-details.html" class="details-link"
+                                title="More Details"><i class="bx bx-link"></i></a></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card"> <img src="/images/portfolioimg/portfolio-4.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Card 2</h4>
+                            <p>Card</p> <a href="/images/portfolioimg/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a> <a href="portfolio-details.html" class="details-link"
+                                title="More Details"><i class="bx bx-link"></i></a></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web"> <img src="/images/portfolioimg/portfolio-5.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Web 2</h4>
+                            <p>Web</p> <a href="/images/portfolioimg/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a> <a href="portfolio-details.html" class="details-link"
+                                title="More Details"><i class="bx bx-link"></i></a></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app"> <img src="/images/portfolioimg/portfolio-6.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>App 3</h4>
+                            <p>App</p> <a href="/images/portfolioimg/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a> <a href="portfolio-details.html" class="details-link"
+                                title="More Details"><i class="bx bx-link"></i></a></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card"> <img src="/images/portfolioimg/portfolio-7.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Card 1</h4>
+                            <p>Card</p> <a href="/images/portfolioimg/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a> <a href="portfolio-details.html" class="details-link"
+                                title="More Details"><i class="bx bx-link"></i></a></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card"> <img src="images/portfolioimg/portfolio-8.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Card 3</h4>
+                            <p>Card</p> <a href="/images/portfolioimg/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a> <a href="portfolio-details.html" class="details-link"
+                                title="More Details"><i class="bx bx-link"></i></a></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web"> <img src="/images/portfolioimg/portfolio-9.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Web 3</h4>
+                            <p>Web</p> <a href="/images/portfolioimg/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a> <a href="portfolio-details.html" class="details-link"
+                                title="More Details"><i class="bx bx-link"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="/JavaScript/bootstrap.bundle.min.js"></script>
-    <script src="/JavaScript/main.js"></script>
+        <!-- team -->
+        <section id="team" class="team section-bg">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Team</h2>
+                    <p>Sit sint consectetur velit. Quisquam quos quisquam cupiditate</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member">
+                            <div class="member-img"> <img src="images/team/team-1.jpg" class="img-fluid" alt="">
+                                <div class="social"> <a href=""><i class="bi bi-twitter"></i></a> <a href=""><i class="bi bi-facebook"></i></a> <a href=""><i class="bi bi-instagram"></i></a> <a href=""><i class="bi bi-linkedin"></i></a></div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Walter White</h4> <span>Chief Executive Officer</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member">
+                            <div class="member-img"> <img src="images/team/team-2.jpg" class="img-fluid" alt="">
+                                <div class="social"> <a href=""><i class="bi bi-twitter"></i></a> <a href=""><i class="bi bi-facebook"></i></a> <a href=""><i class="bi bi-instagram"></i></a> <a href=""><i class="bi bi-linkedin"></i></a></div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Sarah Jhonson</h4> <span>Product Manager</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member">
+                            <div class="member-img"> <img src="images/team/team-3.jpg" class="img-fluid" alt="">
+                                <div class="social"> <a href=""><i class="bi bi-twitter"></i></a> <a href=""><i class="bi bi-facebook"></i></a> <a href=""><i class="bi bi-instagram"></i></a> <a href=""><i class="bi bi-linkedin"></i></a></div>
+                            </div>
+                            <div class="member-info">
+                                <h4>William Anderson</h4> <span>CTO</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member">
+                            <div class="member-img"> <img src="images/team/team-4.jpg" class="img-fluid" alt="">
+                                <div class="social"> <a href=""><i class="bi bi-twitter"></i></a> <a href=""><i class="bi bi-facebook"></i></a> <a href=""><i class="bi bi-instagram"></i></a> <a href=""><i class="bi bi-linkedin"></i></a></div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Amanda Jepson</h4> <span>Accountant</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- pricing -->
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Pricing</h2>
+                    <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="box">
+                            <h3>Free</h3>
+                            <h4><sup>$</sup>0<span> / month</span></h4>
+                            <ul>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                                <li class="na">Pharetra massa</li>
+                                <li class="na">Massa ultricies mi</li>
+                            </ul>
+                            <div class="btn-wrap"> <a href="#" class="btn-buy">Buy Now</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+                        <div class="box featured">
+                            <h3>Business</h3>
+                            <h4><sup>$</sup>19<span> / month</span></h4>
+                            <ul>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                                <li>Pharetra massa</li>
+                                <li class="na">Massa ultricies mi</li>
+                            </ul>
+                            <div class="btn-wrap"> <a href="#" class="btn-buy">Buy Now</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+                        <div class="box">
+                            <h3>Developer</h3>
+                            <h4><sup>$</sup>29<span> / month</span></h4>
+                            <ul>
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                                <li>Pharetra massa</li>
+                                <li>Massa ultricies mi</li>
+                            </ul>
+                            <div class="btn-wrap"> <a href="#" class="btn-buy">Buy Now</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- map -->
+        <section id="contact" class="contact section-bg">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Contact</h2>
+                    <p>Magnam dolores commodi suscipituia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                </div>    
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15865.221241589903!2d7.090728679188298!3d6.22341408863942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1043787a714c190d%3A0xb896cc72a6d6669c!2s420110%2C%20Efite-Awka!5e0!3m2!1sen!2sng!4v1657474470352!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+              
+            </div>
+        
+       </section>
+     <script src="/JavaScript/glightbox.min.js"></script> 
+     <script src="/JavaScript/isotope.pkgd.min.js"></script> 
+     <script src="/JavaScript/swiper-bundle.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="/JavaScript/bootstrap.bundle.min.js"></script>
+     <script src="/JavaScript/main.js"></script>
 </body>
 </html>
