@@ -6,8 +6,9 @@
     box-sizing: border-box;
 }
 
-body{
+html, body{
     font-family: "Raleway";
+    overflow-x: hidden;
 }
 
 a {
@@ -94,7 +95,6 @@ i {
     background-color: transparent;
     padding: 5px 1rem;
     border: 2px solid #85B0BE;
-    /* color: #fff; */
     border-radius: 5px;
 }
 
@@ -103,50 +103,6 @@ i {
   transition: .5s;
   color: #fff !important;
 }
-
-  
-  /* .container1 {
-    position: relative;
-    width: 50%;
-  }
-  
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 90%;
-    width: 90%;
-    margin: auto;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008bba93;
-  }
-
-  .container1:hover .overlay {
-    opacity: 1;
-  }
-  
-  .text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    transition: .5s ease;
-  } */
-
 
   /* testimonials */
   .testimonials {
@@ -241,6 +197,77 @@ i {
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
     background-color: #85b0be;
 }
+
+.frequency{
+    text-align: center;
+    /* margin-top: 10rem; */
+}
+
+#contact{
+    background-color: #F6F9FA;
+}
+.conts{
+   background-color: #fff;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 1.5rem;
+}
+
+.address1{
+    color: #0d6e9e;
+   
+}
+.send-msg{
+    background-color: #0d6e9e;
+    padding: 15px;
+    width: 50px;
+
+}
+#msgBtn{
+    background-color: #85b0be;
+    padding: 10px 1rem;
+    color: #fff;
+    border-radius: 5px;
+    width: 12rem;
+    position: relative;
+    align-items: center;
+}
+#msgBtn:hover{
+    background-color: #a6c6d0;
+    transition: .5s;
+}
+.footer{
+    background-image: linear-gradient(to right,rgba(12, 3, 17, 0.6),
+    rgba(13, 6, 19, 0.5)),url(/images/hero-bg.jpg);
+    background-size: cover;
+    height: 86vh;
+    background-repeat: no-repeat;
+}
+.footer h1{
+    color: white;
+    text-align: center;
+}
+.footer p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 992px) {
     .testimonials .testimonial-item p {
@@ -609,3 +636,8 @@ iframe{
     margin: 0;
     filter: invert(100%);
 }
+.email{
+    width: 10rem;
+}
+
+
